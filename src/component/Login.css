@@ -1,0 +1,19 @@
+.view {
+    height:100vh;
+    width: 100vw;
+    background-color: rgb(233, 233, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    text-align: center;
+    height:50vh;
+    width: 25vw;
+    border-radius: 5%;
+    background-color: rgb(252, 252, 253);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 500;
+}

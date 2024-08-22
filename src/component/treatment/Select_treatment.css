@@ -1,0 +1,50 @@
+.viewp {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(221, 239, 245);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    font-weight: 500;
+}
+
+.frow {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop_nt {
+    width: 50%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.questionsec {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-40%,-40%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.prebutton{
+    position: absolute;
+    bottom: 50;
+    right: 0;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.submit{
+    position: absolute; /* Add this line */
+    bottom: 0;
+    right: 40px;
+    margin: 10px;
+}
